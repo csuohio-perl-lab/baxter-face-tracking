@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import os,roslib,rospy,hehehe
+import os,roslib,rospy
 from std_msgs.msg import Float64,UInt16,Bool
 from sensor_msgs.msg import Image
 from cob_perception_msgs.msg import DetectionArray
