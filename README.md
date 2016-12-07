@@ -1,4 +1,12 @@
-# baxter-face-tracking
+# People and Robots Laboratory Cleveland State University 
+
+# Baxter Face Tracking
+
+This script enables baxter to follow recognized faces around the area by moving the kinect.
+
+After attaching the kinect on baxter's head screen, run the script.
+
+# Installation
 
 First, setup baxter following steps in this:
 
