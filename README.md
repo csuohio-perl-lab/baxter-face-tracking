@@ -33,6 +33,11 @@ http://sdk.rethinkrobotics.com/wiki/Baxter_Setup ----> for baxter setup.
 
 Only run "rosrun perl_baxter recognition.py" ! It will take care of all the background processes alone.
 
+Do not forget to modify :
+
+~/(workspace)/src/cob_people_perception/cob_people_detection/ros/launch/face_recognizer_params.yaml ! recognition_method should be set to 1.
+
+~/(workspace)/src/web_video_server/src/web_video_server.cpp ! ip adress should be set to the current ip of the workstation computer.
 
 # LINKS TO DEPENDENT LIBRARIES:
 
