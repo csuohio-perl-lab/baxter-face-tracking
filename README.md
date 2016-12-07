@@ -33,7 +33,11 @@ catkin_make -DCMAKE_BUILD_TYPE="Release"
 
 
 
-for more information about installing cob_people_detection:
+For more information about installing cob_people_detection:
 
 http://wiki.ros.org/cob_people_detection?distro=indigo
 
+
+To run the script:
+
+rosrun perl_baxter recognition.py
