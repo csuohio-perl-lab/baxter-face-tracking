@@ -28,7 +28,6 @@ generate_messages(DEPENDENCIES std_msgs)
 catkin_package(
   CATKIN_DEPENDS
   rospy
-  roscpp
   xacro
   actionlib
   sensor_msgs

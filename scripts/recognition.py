@@ -9,8 +9,8 @@ from baxter_core_msgs.msg import HeadPanCommand,AnalogIOState
 def processRecogName(name):
 	global flag , flag1, angley, anglex
 	command = HeadPanCommand()
-	ledpub = rospy.Publisher('led_option',UInt16,queue_size=10)
-	puby = rospy.Publisher('tilt_angle',Float64,queue_size=10)
+	ledpub = rospy.Publisher('/led_option',UInt16,queue_size=10)
+	puby = rospy.Publisher('/tilt_angle',Float64,queue_size=10)
 	pubx = rospy.Publisher('/robot/head/command_head_pan',HeadPanCommand,queue_size=10)
 	if (name.detections == []):
 		flag1 += 1
@@ -81,21 +81,31 @@ def do():
 
 
 if __name__ == '__main__':
-	if os.fork() == 0:
-		os.system("rosrun baxter_tools enable_robot.py -e")
+	whatto = raw_input("Do you want to run the dependencies? [Y/n]\n")
+	if whatto =="n":
+		flag = 0
+		flag1 = 0
+		anglex = 0
+		angley = 0
+		wheel_value = 0
+		rospy.init_node('Baxter_control')
+		do()
+		os.system("rosrun baxter_examples xdisplay_image.py --file=`rospack find baxter_examples`/share/images/baxterworking.png")
+
 	else:
 		if os.fork() == 0:
-			os.system("roslaunch openni_launch openni.launch")
+			os.system("rosrun baxter_tools enable_robot.py -e")
 		else:
 			if os.fork() == 0:
-				os.system("roslaunch cob_people_detection people_detection.launch")
+				os.system("roslaunch openni_launch openni.launch")
 			else:
 				if os.fork() == 0:
-					os.system("rosrun kinect_aux kinect_aux_node")
+					os.system("roslaunch cob_people_detection people_detection.launch")
 				else:
 					if os.fork() == 0:
-						os.system("rosrun web_video_server web_video_server")
+						os.system("rosrun kinect_aux kinect_aux_node")
 					else:
+				
 						flag = 0
 						flag1 = 0
 						angley = 0
