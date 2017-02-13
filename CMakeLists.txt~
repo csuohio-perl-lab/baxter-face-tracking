@@ -28,6 +28,7 @@ generate_messages(DEPENDENCIES std_msgs)
 catkin_package(
   CATKIN_DEPENDS
   rospy
+  roscpp
   xacro
   actionlib
   sensor_msgs
@@ -41,20 +42,13 @@ catkin_package(
 
 include_directories(include ${catkin_INCLUDE_DIRS})
 
-add_executable(test src/test.cpp)
-target_link_libraries(test ${catkin_LIBRARIES})
-add_dependencies(test perl_baxter_generate_messages_cpp)
 
 install(
   PROGRAMS
   scripts/recognition.py
-  scripts/move.py
   scripts/send.py
   scripts/sendEmailSrv.py
   scripts/receive.py
-  scripts/draft.py
-  scripts/tweet.py
-  scripts/test.py
   scripts/recogwoweb.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
