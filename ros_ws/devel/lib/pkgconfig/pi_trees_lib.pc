@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: pi_trees_lib
+Description: Description of pi_trees_lib
+Version: 0.1.1
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: 

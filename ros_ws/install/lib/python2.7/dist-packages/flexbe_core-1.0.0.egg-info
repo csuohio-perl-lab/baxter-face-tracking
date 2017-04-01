@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: flexbe_core
+Version: 1.0.0
+Summary: flexbe_core provides the core smach extension for the FlexBE behavior engine.
+Home-page: http://ros.org/wiki/flexbe_core
+Author: Philipp Schillinger
+Author-email: schillinger@sim.tu-darmstadt.de
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: birl_baxter_common
+Description: Description of birl_baxter_common
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: 

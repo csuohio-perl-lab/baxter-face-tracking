@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: kinect2_registration
+Description: Description of kinect2_registration
+Version: 0.0.1
+Cflags: -I/home/ai05/ros_ws/src/iai_kinect2/kinect2_registration/include
+Libs: -L/home/ai05/ros_ws/devel/lib -lkinect2_registration
+Requires: 

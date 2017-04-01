@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: baxter_demo
+Description: Description of baxter_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: 

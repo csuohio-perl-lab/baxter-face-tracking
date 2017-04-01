@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: birl_sim_examples
+Description: Description of birl_sim_examples
+Version: 0.0.1
+Cflags: -I/home/ai05/ros_ws/install/include
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: rospy rospack baxter_core_msgs baxter_gazebo baxter_interface baxter_tools gazebo_ros gazebo_msgs baxter_sim_kinematics

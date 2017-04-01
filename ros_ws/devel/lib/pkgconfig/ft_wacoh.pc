@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: ft_wacoh
+Description: Description of ft_wacoh
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib -lft_wacoh
+Requires: roscpp rospy std_msgs

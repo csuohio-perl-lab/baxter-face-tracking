@@ -1,0 +1,6 @@
+set(force_controller_SETUP_PY_VERSION "0.0.0")
+set(force_controller_SETUP_PY_SCRIPTS "")
+set(force_controller_SETUP_PY_PACKAGES "force_controller")
+set(force_controller_SETUP_PY_PACKAGE_DIRS "src/force_controller")
+set(force_controller_SETUP_PY_MODULES "")
+set(force_controller_SETUP_PY_MODULE_DIRS "")

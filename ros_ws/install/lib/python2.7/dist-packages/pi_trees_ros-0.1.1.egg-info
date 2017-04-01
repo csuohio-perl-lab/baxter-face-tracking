@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pi_trees_ros
+Version: 0.1.1
+Summary: ROS wrappers for the pi_trees_lib Library
+Home-page: http://ros.org/wiki/pi_trees
+Author: Patrick Goebel
+Author-email: patrick@pirobot.org
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

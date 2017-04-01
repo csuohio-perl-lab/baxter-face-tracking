@@ -1,0 +1,6 @@
+set(example_camera_control_SETUP_PY_VERSION "0.0.0")
+set(example_camera_control_SETUP_PY_SCRIPTS "")
+set(example_camera_control_SETUP_PY_PACKAGES "example_camera_control")
+set(example_camera_control_SETUP_PY_PACKAGE_DIRS "src/example_camera_control")
+set(example_camera_control_SETUP_PY_MODULES "")
+set(example_camera_control_SETUP_PY_MODULE_DIRS "")

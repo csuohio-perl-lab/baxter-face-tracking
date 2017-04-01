@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: vigir_behavior_push_door_open
+Description: Description of vigir_behavior_push_door_open
+Version: 1.0.0
+Cflags: -I/home/ai05/ros_ws/install/include
+Libs: -L/home/ai05/ros_ws/install/lib -lvigir_behavior_push_door_open
+Requires: 

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>example_button_gui</name>
+  <version>0.0.0</version>
+  <description>The example_button_gui package</description>
+  <maintainer email="vmrguser@todo.todo">vmrguser</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>qt_gui</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>rqt_gui</build_depend>
+
+  <run_depend>qt_gui</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>rqt_gui</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

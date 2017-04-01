@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: flexbe_navigation_states
+Description: Description of flexbe_navigation_states
+Version: 1.0.0
+Cflags: -I/home/ai05/ros_ws/install/include
+Libs: -L/home/ai05/ros_ws/install/lib -lflexbe_navigation_states
+Requires: 

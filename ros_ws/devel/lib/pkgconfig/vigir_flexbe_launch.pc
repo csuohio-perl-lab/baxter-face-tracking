@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: vigir_flexbe_launch
+Description: Description of vigir_flexbe_launch
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: rosparam
+Description: Description of rosparam
+Version: 1.13.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: 

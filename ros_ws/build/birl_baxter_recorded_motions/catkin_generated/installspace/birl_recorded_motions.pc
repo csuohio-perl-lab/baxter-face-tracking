@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: birl_recorded_motions
+Description: Description of birl_recorded_motions
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: baxter_interface rospy

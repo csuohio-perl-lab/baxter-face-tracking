@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: flexbe_onboard
+Version: 1.0.0
+Summary: flexbe_onboard implements the robot-side of the behavior engine from where all behaviors are started.
+Home-page: http://ros.org/wiki/flexbe_onboard
+Author: Philipp Schillinger
+Author-email: schillinger@sim.tu-darmstadt.de
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

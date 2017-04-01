@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~k_fp0" : \b [double] A double value min: 0.0, default: 0.0, max: 1.0
+- \b "~k_fi1" : \b [double] A double value min: 0.0, default: 0.0, max: 1.0
+- \b "~k_fd2" : \b [double] A double value min: 0.0, default: 0.0, max: 1.0
+- \b "~k_mp0" : \b [double] A double value min: 0.0, default: 0.0, max: 1.0
+- \b "~k_mi1" : \b [double] A double value min: 0.0, default: 0.0, max: 1.0
+- \b "~k_md2" : \b [double] A double value min: 0.0, default: 0.0, max: 1.0
+

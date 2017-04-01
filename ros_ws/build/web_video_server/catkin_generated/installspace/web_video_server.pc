@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: web_video_server
+Description: Description of web_video_server
+Version: 0.0.6
+Cflags: 
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: 

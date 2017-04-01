@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: behavior_hello_world_demo
+Description: Description of behavior_hello_world_demo
+Version: 1.0.0
+Cflags: -I/home/ai05/ros_ws/install/include
+Libs: -L/home/ai05/ros_ws/install/lib -lbehavior_hello_world_demo
+Requires: 

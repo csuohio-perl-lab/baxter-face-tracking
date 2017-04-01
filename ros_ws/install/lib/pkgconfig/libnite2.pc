@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: libnite2
+Description: Description of libnite2
+Version: 0.0.1
+Cflags: -I/home/ai05/ros_ws/install/include
+Libs: -L/home/ai05/ros_ws/install/lib -lNiTE2
+Requires: 

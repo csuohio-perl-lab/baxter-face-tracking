@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: kinect2_registration
+Description: Description of kinect2_registration
+Version: 0.0.1
+Cflags: -I/home/ai05/ros_ws/install/include
+Libs: -L/home/ai05/ros_ws/install/lib -lkinect2_registration
+Requires: 

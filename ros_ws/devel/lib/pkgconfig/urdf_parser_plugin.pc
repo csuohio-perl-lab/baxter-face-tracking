@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: urdf_parser_plugin
+Description: Description of urdf_parser_plugin
+Version: 1.12.6
+Cflags: -I/home/ai05/ros_ws/src/robot_model/urdf_parser_plugin/include -I/usr/include
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: 

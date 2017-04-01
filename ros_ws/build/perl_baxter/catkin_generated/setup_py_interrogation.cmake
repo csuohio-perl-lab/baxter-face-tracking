@@ -1,0 +1,6 @@
+set(perl_baxter_SETUP_PY_VERSION "1.2.0")
+set(perl_baxter_SETUP_PY_SCRIPTS "")
+set(perl_baxter_SETUP_PY_PACKAGES "")
+set(perl_baxter_SETUP_PY_PACKAGE_DIRS "")
+set(perl_baxter_SETUP_PY_MODULES "")
+set(perl_baxter_SETUP_PY_MODULE_DIRS "")

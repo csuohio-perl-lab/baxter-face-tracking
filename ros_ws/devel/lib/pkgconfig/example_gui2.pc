@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: example_gui2
+Description: Description of example_gui2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: rospy qt_gui rqt_gui

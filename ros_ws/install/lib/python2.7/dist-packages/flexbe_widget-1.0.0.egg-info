@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: flexbe_widget
+Version: 1.0.0
+Summary: flexbe_widget implements some smaller scripts for the behavior engine.
+Home-page: http://ros.org/wiki/flexbe_widget
+Author: Philipp Schillinger
+Author-email: schillinger@sim.tu-darmstadt.de
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

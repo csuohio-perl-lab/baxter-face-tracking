@@ -1,0 +1,6 @@
+set(birl_recorded_motions_SETUP_PY_VERSION "0.0.0")
+set(birl_recorded_motions_SETUP_PY_SCRIPTS "")
+set(birl_recorded_motions_SETUP_PY_PACKAGES "birl_recorded_motions")
+set(birl_recorded_motions_SETUP_PY_PACKAGE_DIRS "src/birl_recorded_motions")
+set(birl_recorded_motions_SETUP_PY_MODULES "")
+set(birl_recorded_motions_SETUP_PY_MODULE_DIRS "")

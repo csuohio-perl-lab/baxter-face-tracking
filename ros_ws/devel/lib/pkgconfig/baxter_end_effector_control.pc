@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: baxter_end_effector_control
+Description: Description of baxter_end_effector_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: trac_ik_lib kdl_conversions

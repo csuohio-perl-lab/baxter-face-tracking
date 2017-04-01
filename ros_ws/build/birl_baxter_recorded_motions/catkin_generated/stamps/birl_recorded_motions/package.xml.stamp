@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>birl_recorded_motions</name>
+  <version>0.0.0</version>
+  <description>The recorded_motions package</description>
+  <maintainer email="vmrguser@todo.todo">vmrguser</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>baxter_interface</build_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>baxter_interface</run_depend>
+  <run_depend>rospy</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+  </export>
+</package>

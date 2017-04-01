@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: flexbe_navigation_states
+Version: 1.0.0
+Summary: flexbe_navigation_states provides a collection of robot-agnostic
+     states related to mobile robot navigation.
+Home-page: UNKNOWN
+Author: Spyros Maniatopoulos <sm2296@cornell.edu>, Philipp Schillinger <philipp.schillinger@de.bosch.com>
+Author-email: UNKNOWN
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

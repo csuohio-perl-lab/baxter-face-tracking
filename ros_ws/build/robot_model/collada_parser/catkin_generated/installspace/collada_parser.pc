@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: collada_parser
+Description: Description of collada_parser
+Version: 1.12.6
+Cflags: -I/home/ai05/ros_ws/install/include -I/usr/include
+Libs: -L/home/ai05/ros_ws/install/lib -lcollada_parser
+Requires: roscpp urdf_parser_plugin

@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: libnite2
+Description: Description of libnite2
+Version: 0.0.1
+Cflags: -I/home/ai05/ros_ws/src/cob_people_perception/libnite2/common/include
+Libs: -L/home/ai05/ros_ws/devel/lib -lNiTE2
+Requires: 

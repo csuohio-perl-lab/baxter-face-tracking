@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: my_baxter
+Description: Description of my_baxter
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: 

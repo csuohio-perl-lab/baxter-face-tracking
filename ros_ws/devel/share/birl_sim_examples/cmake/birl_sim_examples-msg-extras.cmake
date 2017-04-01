@@ -1,0 +1,2 @@
+set(birl_sim_examples_MESSAGE_FILES "")
+set(birl_sim_examples_SERVICE_FILES "/home/ai05/ros_ws/src/birl_baxter_simulator/birl_sim_examples/srv/Add_Gazebo_Model.srv;/home/ai05/ros_ws/src/birl_baxter_simulator/birl_sim_examples/srv/Go_To_Start_Position.srv;/home/ai05/ros_ws/src/birl_baxter_simulator/birl_sim_examples/srv/Go_To_Position.srv;/home/ai05/ros_ws/src/birl_baxter_simulator/birl_sim_examples/srv/Gripper_Move.srv")

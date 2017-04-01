@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: imped_control
+Description: Description of imped_control
+Version: 0.0.0
+Cflags: -I/home/ai05/ros_ws/install/include
+Libs: -L/home/ai05/ros_ws/install/lib -limped_control
+Requires: pluginlib pr2_controller_interface pr2_mechanism_model controller_interface control_toolbox baxter_core_msgs roscpp

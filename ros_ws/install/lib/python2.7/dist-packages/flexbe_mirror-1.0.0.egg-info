@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: flexbe_mirror
+Version: 1.0.0
+Summary: flexbe_mirror implements functionality to remotely mirror an executed behavior.
+Home-page: http://ros.org/wiki/flexbe_mirror
+Author: Philipp Schillinger
+Author-email: schillinger@sim.tu-darmstadt.de
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

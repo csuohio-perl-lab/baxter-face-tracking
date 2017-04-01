@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: example_button_gui
+Description: Description of example_button_gui
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: 

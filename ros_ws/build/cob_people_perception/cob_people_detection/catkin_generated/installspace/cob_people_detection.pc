@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: cob_people_detection
+Description: Description of cob_people_detection
+Version: 1.0.0
+Cflags: -I/home/ai05/ros_ws/install/include -I/usr/include/opencv -I/usr/include
+Libs: -L/home/ai05/ros_ws/install/lib -lsubspace_analysis -ldecomposition -lface_normalizer -lface_recognizer_algorithms -lsensor_message_gateway_nodelet -l:/usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8 -l:/usr/lib/x86_64-linux-gnu/libboost_signals.so -l:/usr/lib/x86_64-linux-gnu/libboost_system.so -l:/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+Requires: actionlib actionlib_msgs cv_bridge cob_image_flip cob_perception_msgs cob_vision_utils dynamic_reconfigure geometry_msgs image_transport image_geometry nodelet pcl_ros roscpp sensor_msgs std_msgs std_srvs stereo_msgs tf message_runtime

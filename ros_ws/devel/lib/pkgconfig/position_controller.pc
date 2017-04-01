@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: position_controller
+Description: Description of position_controller
+Version: 0.0.0
+Cflags: -I/home/ai05/ros_ws/src/birl_baxter_controllers/position_controller/include
+Libs: -L/home/ai05/ros_ws/devel/lib -lposition_controller
+Requires: actionlib actionlib_msgs control_msgs trajectory_msgs baxter_core_msgs geometry_msgs roscpp rospy sensor_msgs std_msgs

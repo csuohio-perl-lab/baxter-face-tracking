@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: vigir_behavior_open_door_and_walk_through
+Description: Description of vigir_behavior_open_door_and_walk_through
+Version: 1.0.0
+Cflags: -I/home/ai05/ros_ws/install/include
+Libs: -L/home/ai05/ros_ws/install/lib -lvigir_behavior_open_door_and_walk_through
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: vigir_behavior_surprise_run_1_thor
+Description: Description of vigir_behavior_surprise_run_1_thor
+Version: 1.0.0
+Cflags: -I/home/ai05/ros_ws/src/birl_baxter_executive/flexbe_pa_demo_behaviors/other_states/vigir_behaviors/behaviors/vigir_behavior_surprise_run_1_thor/src
+Libs: -L/home/ai05/ros_ws/devel/lib -lvigir_behavior_surprise_run_1_thor
+Requires: 

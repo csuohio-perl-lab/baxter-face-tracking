@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: point_cloud_selector
+Description: Description of point_cloud_selector
+Version: 0.0.0
+Cflags: -I/home/ai05/ros_ws/install/include
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: roscpp visualization_msgs geometry_msgs tf std_msgs

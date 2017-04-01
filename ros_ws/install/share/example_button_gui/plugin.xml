@@ -1,0 +1,23 @@
+<library path="src">
+  <!-- For the type element, note that the class name that will appear in a menu list in rqt when run (must be unique)
+       Type: Concatenated name of the package, the module, and the class. 
+  -->
+  <class name="Example Btn GUI" type="example_button_gui._example_button_gui_module.ExampleBtnGUI" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python plugin provider for the ROS GUI integrating plugins using rospy client library.
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>Example Button GUI</label>
+      <statustip>Simple GUI to greet the worldSimple GUI to start LIDAR spinning</statustip>
+    </qtgui>
+  </class>
+</library>
+

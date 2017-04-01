@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: flexbe_widget
+Description: Description of flexbe_widget
+Version: 1.0.0
+Cflags: -I/home/ai05/ros_ws/src/birl_baxter_executive/flexbe_behavior_engine/flexbe_widget/src
+Libs: -L/home/ai05/ros_ws/devel/lib -lflexbe_widget
+Requires: 

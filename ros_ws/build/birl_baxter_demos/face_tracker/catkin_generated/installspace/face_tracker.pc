@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: face_tracker
+Description: Description of face_tracker
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: 

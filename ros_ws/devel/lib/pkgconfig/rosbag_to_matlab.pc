@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: rosbag_to_matlab
+Description: Description of rosbag_to_matlab
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: rospy

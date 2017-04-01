@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+	<name>libnite2</name>
+	<version>0.0.1</version>
+	<description>Wrapper for the NiTE2 library</description>
+
+	<maintainer email="richard.bormann@ipa.fraunhofer.de">Richard Bormann</maintainer>
+
+	<license>see downloaded licence file</license>
+
+	<!-- Url tags are optional, but mutiple are allowed, one per tag -->
+	<!-- Optional attribute type can be: website, bugtracker, or repository -->
+	<!-- Example: -->
+	<!-- <url type="website">http://wiki.ros.org/libnite2</url> -->
+	<url type="website">http://ros.org/wiki/cob_people_perception</url>
+
+	<!-- Author tags are optional, mutiple are allowed, one per tag -->
+	<!-- Authors do not have to be maintianers, but could be -->
+	<!-- Example: -->
+	<!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+	
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<depend>mk</depend>
+	<depend>roslib</depend>
+	<depend>rospack</depend>
+	
+</package>

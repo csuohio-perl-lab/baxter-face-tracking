@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: kinect_based_arm_tracking
+Description: Description of kinect_based_arm_tracking
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: 

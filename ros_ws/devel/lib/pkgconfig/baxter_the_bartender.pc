@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: baxter_the_bartender
+Description: Description of baxter_the_bartender
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: 

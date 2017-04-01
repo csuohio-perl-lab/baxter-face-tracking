@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: rviz_plugin_selected_points_topic
+Description: Description of rviz_plugin_selected_points_topic
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: 

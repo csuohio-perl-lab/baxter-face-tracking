@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: xmlrpcpp
+Description: Description of xmlrpcpp
+Version: 1.13.0
+Cflags: -I/home/ai05/ros_ws/src/ros_comm/utilities/xmlrpcpp/include
+Libs: -L/home/ai05/ros_ws/devel/lib -lxmlrpcpp
+Requires: cpp_common

@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/devel
+
+Name: example_camera_control
+Description: Description of example_camera_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/devel/lib 
+Requires: 

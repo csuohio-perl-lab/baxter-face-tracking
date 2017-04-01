@@ -1,0 +1,8 @@
+prefix=/home/ai05/ros_ws/install
+
+Name: example_baxter_kinematics
+Description: Description of example_baxter_kinematics
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ai05/ros_ws/install/lib 
+Requires: baxter_interface baxter_core_msgs geometry_msgs sensor_msgs roscpp rospy tf

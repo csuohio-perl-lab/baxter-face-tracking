@@ -1,0 +1,6 @@
+set(example_gui_pub_SETUP_PY_VERSION "0.0.0")
+set(example_gui_pub_SETUP_PY_SCRIPTS "")
+set(example_gui_pub_SETUP_PY_PACKAGES "example_gui_pub")
+set(example_gui_pub_SETUP_PY_PACKAGE_DIRS "src/example_gui_pub")
+set(example_gui_pub_SETUP_PY_MODULES "")
+set(example_gui_pub_SETUP_PY_MODULE_DIRS "")
